@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <img id="logo" src="images/logo.png" alt="logo">
+        <nav class="navbar">
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#" target="_blank">Features</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Contact</a></li> 
+            </ul>    
+            <img id="user" src="images/user.png" alt="user" onclick="toggleMenu()">
+        </nav>
+        
+    </div>
+    <div class="subMenu" id="subMenu">
+        <div class="james">
+            <img id="james" src="images/user.png" alt="user">
+            <h3>James Aldrino</h3>
+        </div>
+        <hr>
+
+        <a href="#" class="sub-menu-link">
+            <img src="images/profile.png" alt="">
+            <p>Edit Profile</p>
+            <span>></span>
+        </a>
+        <a href="#" class="sub-menu-link">
+            <img src="images/setting.png" alt="">
+            <p>Settings & Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="sub-menu-link">
+            <img src="images/help.png" alt="">
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="sub-menu-link">
+            <img src="images/logout.png" alt="">
+            <p>Logout</p>
+            <span>></span>
+        </a>
+        
+
+
+    </div>
+    
+<script src="script.js"></script>
+    
+</body>
+</html>
